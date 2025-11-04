@@ -1,0 +1,5 @@
+.venv/
+Jupyter Files/
+pipeline.pkl
+df.pkl
+datasets/

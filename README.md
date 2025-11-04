@@ -6,24 +6,25 @@ Built using Machine Learning, Python, and Streamlit, this platform allows users 
 ## 🚀 Features
 - Price Prediction
 
-Predict property prices instantly using a trained regression model.
+1. Predict property prices instantly using a trained regression model.
 
-Models optimized via feature engineering and hyperparameter tuning to achieve 93% accuracy.
+2. Models optimized via feature engineering and hyperparameter tuning to achieve 93% accuracy.
 
 - Property Analytics
 
-Visualize and analyze property trends, pricing distribution, and location-based insights.
+1. Visualize and analyze property trends, pricing distribution, and location-based insights.
 
-Interactive dashboards powered by Streamlit and Pandas.
+2. Interactive dashboards powered by Streamlit and Pandas.
 
 - Recommendation System
 
-Get personalized property recommendations based on user preferences and property similarities.
+1. Get personalized property recommendations based on user preferences and property similarities.
 
-Enhanced recommendation accuracy using weighted similarity metrics.
+2. Enhanced recommendation accuracy using weighted similarity metrics.
 
 ## 🧱 Project Structure
 Real-Estate-Price-Prediction-and-Analytics/
+~~~
 │
 ├── data/                     # Raw and cleaned datasets (not uploaded due to size)
 │
@@ -46,58 +47,63 @@ Real-Estate-Price-Prediction-and-Analytics/
 ├── README.md                 # Project documentation
 │
 └── utils/                    # Helper scripts for preprocessing, prediction, etc.
-
+~~~
 ## ⚙️ Tech Stack
-Category	Technologies
-Programming Language	Python 🐍
-Frontend / UI	Streamlit
-Data Analysis	Pandas, NumPy
-Modeling	Scikit-learn, XGBoost, RandomForest
-Visualization	Matplotlib, Seaborn
-Deployment	AWS EC2
-Version Control	Git, GitHub
+### Category	Technologies
+- Programming Language	Python 🐍
+- Frontend / UI	Streamlit
+- Data Analysis	Pandas, NumPy
+- Modeling	Scikit-learn, XGBoost, RandomForest
+- Visualization	Matplotlib, Seaborn
+- Version Control	Git, GitHub
 
 ## 📊 Workflow Overview
 1. Data Pipeline
 
-Extracted property listings from 99acres.com
+- Extracted property listings from 99acres.com
 
-Cleaned, standardized, and engineered features to improve data quality by ~25%
+- Cleaned, standardized, and engineered features to improve data quality by ~25%
 
 2. Model Development
 
-Trained regression models with feature selection and tuning
+- Trained regression models with feature selection and tuning
 
-Achieved 93% accuracy and reduced MAE by 18%
+- Achieved 93% accuracy and reduced MAE by 18%
 
 3. Web Application
 
-Integrated models into an interactive Streamlit app
+- Integrated models into an interactive Streamlit app
 
-Implemented multi-page architecture (Predictor, Analytics, Recommendation)
+- Implemented multi-page architecture (Predictor, Analytics, Recommendation)
 
-Improved user query response time by 30%
+- Improved user query response time by 30%
 
 4. Deployment
 
-Deployed on AWS for scalable and accessible usage
+- Deployed on AWS for scalable and accessible usage
 
 ## 💻 How to Run Locally
 1. Clone the Repository
-git clone https://github.com/<your-username>/Real-Estate-Price-Prediction-and-Analytics.git
+~~~
+git clone https://github.com/Parth-444/Real-Estate-Price-Prediction-and-Analytics.git
+~~~
+~~~
 cd Real-Estate-Price-Prediction-and-Analytics
-
+~~~
 2. Create Virtual Environment
+~~~
 python -m venv venv
 source venv/bin/activate   # For macOS/Linux
 venv\Scripts\activate      # For Windows
-
+~~~
 3. Install Dependencies
+~~~
 pip install -r requirements.txt
-
+~~~
 4. Run Streamlit App
+~~~
 streamlit run app.py
-
+~~~
 
 Then open your browser at 👉 http://localhost:8501/
 

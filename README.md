@@ -1,28 +1,28 @@
-🏠 Real Estate Price Prediction and Analytics Platform
+## 🏠 Real Estate Price Prediction and Analytics Platform
 
 An end-to-end web application for predicting real estate prices, analyzing property data, and recommending personalized listings.
 Built using Machine Learning, Python, and Streamlit, this platform allows users to explore property insights, predict prices, and receive tailored recommendations — all through an intuitive, interactive interface.
 
-🚀 Features
-🔹 Price Prediction
+## 🚀 Features
+- 🔹 Price Prediction
 
 Predict property prices instantly using a trained regression model.
 
 Models optimized via feature engineering and hyperparameter tuning to achieve 93% accuracy.
 
-🔹 Property Analytics
+- 🔹 Property Analytics
 
 Visualize and analyze property trends, pricing distribution, and location-based insights.
 
 Interactive dashboards powered by Streamlit and Pandas.
 
-🔹 Recommendation System
+- 🔹 Recommendation System
 
 Get personalized property recommendations based on user preferences and property similarities.
 
 Enhanced recommendation accuracy using weighted similarity metrics.
 
-🧱 Project Structure
+## 🧱 Project Structure
 Real-Estate-Price-Prediction-and-Analytics/
 │
 ├── data/                     # Raw and cleaned datasets (not uploaded due to size)
@@ -47,7 +47,7 @@ Real-Estate-Price-Prediction-and-Analytics/
 │
 └── utils/                    # Helper scripts for preprocessing, prediction, etc.
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 Category	Technologies
 Programming Language	Python 🐍
 Frontend / UI	Streamlit
@@ -56,7 +56,8 @@ Modeling	Scikit-learn, XGBoost, RandomForest
 Visualization	Matplotlib, Seaborn
 Deployment	AWS EC2
 Version Control	Git, GitHub
-📊 Workflow Overview
+
+## 📊 Workflow Overview
 1. Data Pipeline
 
 Extracted property listings from 99acres.com
@@ -81,7 +82,7 @@ Improved user query response time by 30%
 
 Deployed on AWS for scalable and accessible usage
 
-💻 How to Run Locally
+## 💻 How to Run Locally
 1. Clone the Repository
 git clone https://github.com/<your-username>/Real-Estate-Price-Prediction-and-Analytics.git
 cd Real-Estate-Price-Prediction-and-Analytics
@@ -100,30 +101,28 @@ streamlit run app.py
 
 Then open your browser at 👉 http://localhost:8501/
 
-📸 Screenshots
 
-(You can add screenshots later once your app is running and styled — ideally showing predictor page, analytics dashboard, and recommendation page.)
-
-📈 Results & Performance
+## 📈 Results & Performance
 Metric	Before Optimization	After Optimization
-Model Accuracy	85%	93%
-Mean Absolute Error	Baseline	↓ 18%
-Data Consistency	–	↑ 25%
-Query Response Time	–	↓ 30%
-🧩 Future Enhancements
+- Model Accuracy	85%	93%
+- Mean Absolute Error	Baseline	↓ 18%
+- Data Consistency	–	↑ 25%
+- Query Response Time	–	↓ 30%
+  
+## 🧩 Future Enhancements
 
-Add Geospatial Visualization using Folium / Plotly Maps
+- Add Geospatial Visualization using Folium / Plotly Maps
 
-Integrate Real-time Property Data APIs
+- Integrate Real-time Property Data APIs
 
-Include User Authentication for personalized dashboards
+- Include User Authentication for personalized dashboards
 
-Expand to Rental Price Prediction module
+- Expand to Rental Price Prediction module
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 
-Data sourced from 99acres.com (publicly available listings)
+- Data sourced from 99acres.com (publicly available listings)
 
-Inspired by real-world property analytics platforms
+- Inspired by real-world property analytics platforms
 
-Developed with ❤️ using Python, Streamlit, and Machine Learning
+- Developed with ❤️ using Python, Streamlit, and Machine Learning

@@ -4,19 +4,19 @@ An end-to-end web application for predicting real estate prices, analyzing prope
 Built using Machine Learning, Python, and Streamlit, this platform allows users to explore property insights, predict prices, and receive tailored recommendations — all through an intuitive, interactive interface.
 
 ## 🚀 Features
-- 🔹 Price Prediction
+- Price Prediction
 
 Predict property prices instantly using a trained regression model.
 
 Models optimized via feature engineering and hyperparameter tuning to achieve 93% accuracy.
 
-- 🔹 Property Analytics
+- Property Analytics
 
 Visualize and analyze property trends, pricing distribution, and location-based insights.
 
 Interactive dashboards powered by Streamlit and Pandas.
 
-- 🔹 Recommendation System
+- Recommendation System
 
 Get personalized property recommendations based on user preferences and property similarities.
 
